@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  color: #676767;
+  width: 100%;
+  min-height: 100vh;
+  padding: 3em;
+  background-color: white;
+  font-size: 0.8em;
+}
+
+.container {
+  width: 50%;
+  padding: 1em 1.5em;
+  margin: 0 auto;
+}
+
+.img-container {
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+form {
+  border: 1px solid #888;
+  border-radius: 8px;
+}
+
+form .title {
+  color: #333;
+  font-size: 2em;
+  text-align: center;
+}
+
+form .description {
+  margin-top: 0;
+  text-align: center;
+}
+
+p,
+.form-control,
+.radio-section,
+button,
+.date-section {
+  margin-top: 1.2em;
+}
+
+p, label {
+    color : #333;
+}
+
+.form-control {
+  display: flex;
+  gap: 1em;
+}
+
+.form-input,.radio-input {
+  width: 100%;
+  padding: 0.5em 1.2em;
+  font-size : 1em;
+  color : #333;
+  border : 1px solid #777;
+  border-radius : 6px;
+}
+
+.date-section {
+    width : 100%;
+    display : flex;
+    gap : 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-input {
+    padding : 0.3em 1em;
+    border: 1px solid #777;
+    border-radius : 6px;
+    color : #333;
+}
+
+.radio-section {
+    display : flex;
+    gap : 1em;
+    margin-top : 0.5em;
+}
+
+.radio-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    display: block;
+    margin : 0.8em auto;
+    padding: 0.5em 1.7em;
+    background-color: rgb(39, 39, 228);
+    border : none;
+    color : white;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: rgb(9, 9, 163);
+}
+
+.link {
+    text-align : center;
+    margin : 0;
+}
+

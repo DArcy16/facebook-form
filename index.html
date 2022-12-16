@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="img-container">
+      <img src="facebook.png" alt="facebook" />
+    </div>
+
+    <form class="container">
+      <h1 class="title">Create a new account</h1>
+      <p class="description">It's quick and easy</p>
+
+      <div class="form-control">
+        <input class="form-input" type="text" name="firstname" placeholder="First Name" />
+        <input class="form-input" type="text" name="lastname" placeholder="Last Name"/>
+      </div>
+      <div class="form-control">
+        <input class="form-input" type="email" name="email" placeholder="Mobile Number or Email Address" />
+      </div>
+      <div class="form-control">
+        <input class="form-input" type="password" name="password" placeholder="New Password"> 
+      </div>
+      <div class="date-section">
+        <label for="date">Date Of Birth</label>
+        <input class="date-input" id="date" type="date" name="dob" />
+      </div>
+      <p>Gender</p>
+      <div class="radio-section">
+        <div class="radio-input"> 
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" />
+        </div>
+        <div class="radio-input">
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" />
+        </div>
+        <div class="radio-input">
+          <label for="other">Other</label>
+          <input type="radio" id="other" name="gender" />
+        </div>
+      </div>
+      <p>
+        People who use our service may have uploaded your contact information to
+        Facebook. <a href="#">Learn more.</a>
+      </p>
+      <p>
+        By clicking Sign Up, you agree to our
+        <a href="#">Terms</a>,
+        <a href="#">Privacy Policy</a> and
+        <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.
+      </p>
+      <button type="submit">
+        Sign Up
+      </button>
+      <p class="link">
+          <a href="#">Alreay have an account?</a>
+      </p>
+    </form>
+  </body>
+</html>
