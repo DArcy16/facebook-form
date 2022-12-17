@@ -20,8 +20,8 @@ body {
 }
 
 .container {
-  width: 50%;
-  padding: 1em 1.5em;
+  width: 60%;
+  padding: 2em 6em;
   margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ body {
   display: flex;
   width: 25%;
   justify-content: center;
-  margin: 0 auto;
+  margin: 2em auto;
 }
 
 form {
@@ -53,11 +53,12 @@ p,
 .radio-section,
 button,
 .date-section {
-  margin-top: 1.2em;
+  margin-top: 1.5em;
 }
 
-p, label {
-    color : #333;
+p,
+label {
+  color: #333;
 }
 
 .form-control {
@@ -65,57 +66,70 @@ p, label {
   gap: 1em;
 }
 
-.form-input,.radio-input {
+.form-input,
+.radio-input {
   width: 100%;
-  padding: 0.5em 1.2em;
-  font-size : 1em;
-  color : #333;
-  border : 1px solid #777;
-  border-radius : 6px;
+  padding: 0.7em 1.2em;
+  font-size: 1em;
+  color: #333;
+  border: 1px solid #777;
+  border-radius: 6px;
 }
 
 .date-section {
-    width : 100%;
-    display : flex;
-    gap : 2em;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
 }
 
 .date-input {
-    padding : 0.3em 1em;
-    border: 1px solid #777;
-    border-radius : 6px;
-    color : #333;
+  padding: 0.6em 0 0.6em 1.2em;
+  border: 1px solid #777;
+  border-radius: 6px;
+  color: #333;
 }
 
 .radio-section {
-    display : flex;
-    gap : 1em;
-    margin-top : 0.5em;
+  display: flex;
+  gap: 1em;
+  margin-top: 0.5em;
 }
 
 .radio-input {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 button {
-    display: block;
-    margin : 0.8em auto;
-    padding: 0.5em 1.7em;
-    background-color: rgb(39, 39, 228);
-    border : none;
-    color : white;
-    border-radius: 6px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  padding: 0.5em 1.7em;
+  background-color: rgb(39, 39, 228);
+  border: none;
+  color: white;
+  border-radius: 6px;
 }
 
 button:hover {
-    background-color: rgb(9, 9, 163);
+  background-color: rgb(9, 9, 163);
 }
 
 .link {
-    text-align : center;
-    margin : 0;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1.5em;
 }
 
+.link a {
+  padding: 0.7em 1.2em;
+  border-radius: 8px;
+  border: none;
+}
+
+.link a:hover {
+  background-color: rgb(200, 200, 218);
+  color : rgb(19, 19, 185);
+}
